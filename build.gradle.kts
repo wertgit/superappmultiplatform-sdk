@@ -1,9 +1,10 @@
 plugins {
-    kotlin("multiplatform") version "1.7.10"
+    kotlin("multiplatform") version "1.7.20"
+    id("maven-publish")
 }
 
-group = "me.work"
-version = "1.0-SNAPSHOT"
+group = "org.jetbrains.base64"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
