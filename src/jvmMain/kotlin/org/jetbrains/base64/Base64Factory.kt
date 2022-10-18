@@ -12,4 +12,5 @@ actual object Base64Factory {
 
 object JvmBase64Encoder : Base64Encoder {
     override fun encode(src: ByteArray): ByteArray = Base64.getEncoder().encode(src)
+    override fun encodeToString(src: ByteArray): String = Base64.getEncoder().encodeToString(src)
 }
